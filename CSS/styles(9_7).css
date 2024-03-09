@@ -1,0 +1,324 @@
+/*----------------------------------------- Main-Setup --------------------------------*/
+
+html {
+    font-size: 16px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+body {
+    margin: 0 auto;
+}
+
+body #main {
+    position: relative;
+    top: 5.312rem;
+}
+
+/*-------------------------------------- Loco Tacos Banner ----------------------------*/
+
+header {
+    width: 98%;
+    height: 5.3125rem;
+    position: fixed;
+    z-index: 100;
+    padding: 0 1%;
+    display: inline-flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+header .logo {
+    width: 40%;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+header #Logo {
+    font-family: 'Tilt Neon', serif;
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+header .logo img {
+    width: 6rem;
+    height: 5.315rem;
+}
+
+header nav {
+    width: 60%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav a {
+    font-family: 'Handjet', serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 2rem;
+}
+
+header nav img {
+    width: 6rem;
+    height: 5.3125rem;
+}
+/*----------------------------------------------- Menu --------------------------------*/
+
+body #main .top-section {
+    width: 100%;
+    background-image: url(../images/taco_coverneon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+body #main .top-section h1 {
+    font-family: 'Neonderthaw', serif;
+    font-size: 8rem;
+    margin: 10% 0 0;
+}
+
+body #main .menu {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: 20%;
+    padding: 1% 1%;
+    margin: 40% 0 5%;
+
+}
+
+body #main .menu a {
+    font-family: 'Handjet', serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+/*--------------------------------------------- Tacos ---------------------------------*/
+
+#Tacos {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 96%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 2%;
+}
+
+#Tacos h1 {
+    font-family: 'Handjet', serif;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1% 0;
+
+}
+
+#Tacos .images {
+    width: 98%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 1%;
+    border-top: 1px solid white;
+}
+
+#Tacos .container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 6px 4px;
+    width: 24.5%;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+#Tacos .images img {
+    border-radius: 5px;
+    width: 98%;
+    height: 20rem;
+}
+
+#Tacos .container h4 {
+    text-align: center;
+    margin: 5% 0;
+    padding: 0 1%;
+    width: 85%;
+}
+
+#Tacos .container h5 {
+    text-align: left;
+    margin: 0 0;
+    line-height: 2;
+    padding: 0 1%;
+    width: 85%;
+    font-size: 0.875rem;
+    font-size: 0.75vw;
+}
+
+/*------------------------------------------ Burritos ---------------------------------*/
+
+#Burritos {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 80rem;
+    background-image: url(../images/taco_cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#Burritos .title {
+    width: 100%;
+}
+
+
+#Burritos .title h1 {
+    font-family: 'Handjet', serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 4% 0;
+    color: black;
+    font-size: 4rem;
+}
+
+#burrito-bottom {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 75%;
+}
+
+#background {
+    position: absolute;
+    z-index: 0;
+    width: 70%;
+    height: 50.4rem;
+    border-radius: 10px;
+    margin: 2% 0;
+    background-color: black;
+    opacity: 0.6;
+    left: 17.3%;
+    margin-left: 2%;
+}
+
+#types {
+    width: 70%;
+    height: 84%;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 2% 0;
+    position: relative;
+    z-index: 1;
+    margin-left: 2%;
+}
+
+#Burritos .sidetitle {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    height: 80%;
+    width: 8%;
+    padding: 1% 2.5%;
+    margin: 2% 2% 5%;
+    background-color: slategray;
+    opacity: 0.85;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#Burritos .sidetitle h2 {
+    font-family: 'Tilt Neon', serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1% 0;
+    color: black;
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+#types .container {
+    border-bottom: 3px dashed white;
+}
+
+#types .container, #types .container1 {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 25%;
+    width: 100%;
+}
+
+#types .container1 {
+    height: 24%;
+}
+
+
+#types .image {
+    height: 90%;
+    width: 12%;
+    padding: 1% 1%;
+}
+
+#types .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#types .text {
+    width: 30%;
+    height: 100%;
+    padding-right: 2%;
+    border-right: 3px solid white
+}
+
+#types .text h3 {
+    text-align: center;
+}
+
+#types .prices {
+    width: 70%;
+    height: 100%;
+    padding-left: 5%;
+}
+
+#types .prices h3 {
+    text-align: center;
+}
