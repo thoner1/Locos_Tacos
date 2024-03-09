@@ -69,7 +69,7 @@ header nav img {
 
 body #main .top-section {
     width: 100%;
-    background-image: url(../images/taco_coverneon.png);
+    background-image: url(./images/taco_coverneon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -187,7 +187,7 @@ body #main .top-section h1 {
     justify-content: flex-start;
     width: 100%;
     height: 80rem;
-    background-image: url(../images/taco_cover.jpg);
+    background-image: url(./images/taco_cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -335,7 +335,7 @@ body #main .top-section h1 {
 #Sides {
     width: 100%;
     height: 80rem;
-    background-image: url(../images/backgrounds/bananaleaves.jpg);
+    background-image: url(./images/backgrounds/bananaleaves.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -475,7 +475,7 @@ body #main .top-section h1 {
 #Locations {
     width: 100%;
     height: 30rem;
-    background-image: url(../images/backgrounds/neonstreet.jpg);
+    background-image: url(./images/backgrounds/neonstreet.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
